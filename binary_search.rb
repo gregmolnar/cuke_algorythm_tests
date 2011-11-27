@@ -8,7 +8,7 @@ class Array
       break if(size == 1)
       middle = size / 2
       if(needle < array[middle])
-        array.slice!(middle,length)
+        array.slice!(middle,size)
       else
         array.slice!(0,middle)
       end

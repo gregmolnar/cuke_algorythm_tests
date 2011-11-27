@@ -8,4 +8,5 @@ Scenario Outline: Find a positive integer in a sorted array of positive integers
 	  | numbers    | needle   | result |
 	  | 1 3 7 9 34 | 7        | 7      |
 	  | 1 3 7 9 34 | 1        | 1      |
+	  | 1 3 7 9 34 | 34       | 34     |
 	  | 1 3 7 9 34 | 5        | nil    |
