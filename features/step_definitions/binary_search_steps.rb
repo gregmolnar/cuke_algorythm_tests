@@ -8,5 +8,5 @@ When /^I try to find the "([^"]*)"$/ do |arg1|
 end
 
 Then /^I should get "([^"]*)"$/ do |arg1|
-  pending # express the regexp above with the code you wish you had
+  @r.should == arg1
 end
