@@ -1,3 +1,4 @@
+require 'binary_search.rb'
 Given /^an array of positive integer numbers "([^"]*)"$/ do |arg1|
   @array = arg1.split
 end
